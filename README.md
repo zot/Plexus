@@ -7,8 +7,8 @@ Flow
 
 Info
 ====
-The Plexus repo is here: https://github.com/zot/Plexus
-The fork of CubeCreate is here: https://github.com/zot/CubeCreate
+Here is the [Plexus repo](https://github.com/zot/Plexus)
+Here is the [fork of CubeCreate](https://github.com/zot/CubeCreate)
 
 Milestone 1: Two Guys in a Box
 ====
