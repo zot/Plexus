@@ -8,6 +8,6 @@ Flow
 Roadmap
 ====
 * Port socket code from sauer mods to syntensity
- * code uses "mysocket" in engine/main.cpp and remote/remote.cpp
+    * code uses "mysocket" in engine/main.cpp and remote/remote.cpp
 * Write socket handler node.js
 * messages are JSON: [msg, arg, arg, arg]\n
