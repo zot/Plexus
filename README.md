@@ -10,12 +10,7 @@ Info
 The Plexus repo is here: https://github.com/zot/Plexus
 The fork of CubeCreate is here: https://github.com/zot/CubeCreate
 
-----
-
-Todo
-====
-
-Two Guys in a Box
+Milestone 1: Two Guys in a Box
 ====
 ### CubeCreate Connectivity
 * Port socket code from sauer mods to CubeCreate
