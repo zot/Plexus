@@ -7,8 +7,9 @@ Flow
 
 Info
 ====
-Here is the [Plexus repo](https://github.com/zot/Plexus)
-Here is the [fork of CubeCreate](https://github.com/zot/CubeCreate)
+Here is the [Plexus git repo](https://github.com/zot/Plexus)
+Here is the [CubeCreate git fork](https://github.com/zot/CubeCreate/tree/plexus)
+Here is the [Coffeescript git fork](https://github.com/zot/coffee-script/tree/mocoffee)
 
 Milestone 1: Two Guys in a Box
 ====
