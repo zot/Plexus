@@ -34,6 +34,8 @@ Here is the [CubeCreate git fork](https://github.com/zot/CubeCreate/tree/plexus)
 
 Here is the [Coffeescript git fork](https://github.com/zot/coffee-script/tree/mocoffee)
 
+Here is the Wikipedia article on [Functional Programming](http://en.wikipedia.org/wiki/Functional_programming)
+
 
 Milestone 1: Two Guys in a Box
 ====
