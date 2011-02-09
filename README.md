@@ -4,6 +4,13 @@ Plexus is an "advanced" programming project. This is for people (like me) who wa
 
 * many worlds from a single server; players can easily create and destroy worlds and hop from one to another
 * "society of mind" style game actor control, dynamically distributed among the players' game engines
+
+    I'd like to explore some concurrent, model-based reasoning here, probably using actors
+    1. start exploring possibilities, based on some "complex" reasoning involving the player's state, etc.
+    1. go until it reaches a decision point that could have more than one alternative
+    1. at that point, create actors for the alternatives
+    1. the world is a HAMT, so "changes" don't affect the other actors' models
+    1. the output is a much simpler decision tree
 * natural language processing for decent text entry
 * both visual and auditory information propagation: I'd like to be able to create an object and send it to everything that could "see it" or "hear it". This is like "line of sight" vs "area of effect", for information (i.e. events)
 * visual portals, like "magic mirrors" -- a video screen that you can walk or shoot through
