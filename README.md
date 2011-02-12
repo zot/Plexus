@@ -3,12 +3,12 @@ Intro
 Plexus is an "advanced" programming project. This is for people (like me) who want to learn some advanced things or get more practical experience with them. It's not "just" to make a cool game. So, if you're more interested in having a cool game than learning advanced techniques, stay away. You won't like this project (except maybe as a player). I'll be focusing on functional programming and other advanced techniques. Along the way, I'll need to modify CubeCreate and I'll contribute the code back (just like I always do). Here are a few things I'd like to see:
 
 * many worlds from a single server; players can easily create and destroy worlds and hop from one to another
-* "society of mind" style game actor control, dynamically distributed among the players' game engines
+* "society of mind" style [game actor control](thinkingAhead.md), dynamically distributed among the players' game engines
 
     I'd like to explore some concurrent, model-based reasoning here, probably using actors
     1. start exploring possibilities, based on some "complex" reasoning involving the player's state, etc.
     1. go until it reaches a decision point that could have more than one alternative
-    1. at that point, create actors for the alternatives
+    1. at that point, create actors for the alternatives; each actor can change its own version of the world
     1. the world is a HAMT, so "changes" don't affect the other actors' models
     1. the output is a much simpler decision tree
 * natural language processing for decent text entry
@@ -21,6 +21,8 @@ Plexus is an "advanced" programming project. This is for people (like me) who wa
 * A lot of other things I've written about before, which you can find on http://blog.plubble.com/, if you're motivated 
 
 I'm planning to do as much as I can in Rhino, using functional techniques, but some things would depend heavily on cC mods, like visual and auditory information propagation and visual portals, for instance. Some of these things can be done completely in cC, and I'm happy to do that (and I'm happy for other projects to do them as well).  Why Rhino and not Node.js?  Because part of the coolness of functional programming is how it handles concurrency and Rhino supports multithreaded code with shared memory.  Node.js doesn't -- even with WebWorkers, you don't get shared memory; it copies messages around.  Since I want to share megabytes of memory, that's not really a good option for me.  Node.js could be be made to work, if each worker kept its own separate copy of the state of the world and they each got all of the changes and updated their own worlds (to an identical state), but since Rhino can completely avoid all of that extra work, I think Rhino makes more sense, even though it's slower than Node.js.
+
+NOTE: I'm experimenting with modifying Coffeescript to generate both Lua and JavaScript.  If this works, I'll be deploying the initial version in Lua, since it's faster than Rhino and supports threads and shared memory.
 
 For me, the point is writing the code, teaching, and learning.
 
