@@ -37,11 +37,11 @@ Info
 ====
 Here is the [Plexus git repo](https://github.com/zot/Plexus)
 
+Here is my [Coffeescript git fork](https://github.com/zot/coffee-script/tree/mocoffee) with the 'mofor' construct
+
 Here is the [Xus git repo](https://github.com/zot/Xus/tree/xus2)
 
 Here is the [CubeCreate git fork](https://github.com/zot/CubeCreate/tree/plexus)
-
-Here is the [Coffeescript git fork](https://github.com/zot/coffee-script/tree/mocoffee)
 
 Here is the Wikipedia article on [Functional Programming](http://en.wikipedia.org/wiki/Functional_programming)
 
