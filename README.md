@@ -1,5 +1,7 @@
 Intro
 ====
+Here is the [project management file](TODO.md)
+
 Plexus is an "advanced" programming project. This is for people (like me) who want to learn some advanced things or get more practical experience with them. It's not "just" to make a cool game. So, if you're more interested in having a cool game than learning advanced techniques, stay away. You won't like this project (except maybe as a player). I'll be focusing on functional programming and other advanced techniques. Along the way, I'll need to modify CubeCreate and I'll contribute the code back (just like I always do). Here are a few things I'd like to see:
 
 * many worlds from a single server; players can easily create and destroy worlds and hop from one to another
