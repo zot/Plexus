@@ -17,6 +17,9 @@ Fixed line 196 and 197 of indra/llui/tests/llurlentry_stub.cpp, added cast to ch
 
 Kirstensviewer
 
+copy kirstensviewers/libraries/i686-linux to kirstensviewers/indra/newview/vivox-runtime
+
+
 WARNINGS:
 CMake Warning at newview/CMakeLists.txt:1445 (add_executable):
   Cannot generate a safe linker search path for target Kirstens-S21 because
