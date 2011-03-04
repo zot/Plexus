@@ -8,6 +8,10 @@ CURRENT
 
 NEXT
 ====
+* remote object script replacement (like rdist for objects)
+   * there's about a dozen objects i have to edit, open their contents, open up each script, copy & paste the script, then save (compile) it
+   * at several points along the way, i have to stop, pick up a copy of an object, then put that copy into the contents of another object
+   * the UUID of all the existing objects in world will stay fixed, but obviously when i take a copy, that copy will get a new UUID and that's what has to be xferred
 
 ---
 
