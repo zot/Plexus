@@ -1,8 +1,8 @@
 [submodule "Kirstens-clone"]
 	path = Kirstens-clone
 	url = git@github.com:zot/Kirstens-clone.git
-[submodule "coffee-script"]
-	path = coffee-script
+[submodule "Coffee-script"]
+	path = Coffee-script
 	url = git@github.com:zot/coffee-script.git
 [submodule "Xus"]
 	path = Xus
