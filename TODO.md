@@ -16,14 +16,14 @@ NEXT
 
 DONE
 ====
-* 2011-0223-2245 BILL controller connection code
-* 2011-0228-1100 BILL graft LuaJIT into Kirstensviewer
-* 2011-0314-0000 BILL Port old socket code to viewer and hook into event loop -- viewer executes socket Lua commands now
 * 2011-0315-1230 BILL make plexus an aggregate repo:
    * controller
    * xus
    * mocoffee
    * kirstensviewer
+* 2011-0314-0000 BILL Port old socket code to viewer and hook into event loop -- viewer executes socket Lua commands now
+* 2011-0228-1100 BILL graft LuaJIT into Kirstensviewer
+* 2011-0223-2245 BILL controller connection code
 
 ---
 
