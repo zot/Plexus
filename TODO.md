@@ -4,11 +4,6 @@ CURRENT
 * Lua object model for avatar properties -- read and write x, y, z, roll, pitch, yaw
 * Hook location changes into Lua model
 * Wire hooks to output over socket
-* make plexus an aggregate repo:
-   * controller
-   * xus
-   * mocoffee
-   * kirstensviewer
 
 NEXT
 ====
@@ -23,7 +18,12 @@ DONE
 ====
 * 2011-0223-2245 BILL controller connection code
 * 2011-0228-1100 BILL graft LuaJIT into Kirstensviewer
-* 2011-0314-0000 FILL Port old socket code to viewer and hook into event loop -- viewer executes socket Lua commands now
+* 2011-0314-0000 BILL Port old socket code to viewer and hook into event loop -- viewer executes socket Lua commands now
+* 2011-0315-1230 BILL make plexus an aggregate repo:
+   * controller
+   * xus
+   * mocoffee
+   * kirstensviewer
 
 ---
 
