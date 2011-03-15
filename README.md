@@ -33,7 +33,7 @@ Flow
 1. game installs nextState and sends outgoingChanges to viewer
 
 
-Info
+Links
 ====
 Here's an [overview talk](http://www.ustream.tv/recorded/13071305) at the CCCKC hackerspace. It starts around 23:30
 Here are the [slides](https://docs.google.com/present/edit?id=0AX2MRkbkRMqbZGMyemJyM2RfNjdmZnBqcGJmbQ&hl=en&authkey=CPDl5csI)
@@ -41,6 +41,8 @@ Here are the [slides](https://docs.google.com/present/edit?id=0AX2MRkbkRMqbZGMye
 Here is the [Plexus git repo](https://github.com/zot/Plexus)
 
 Here is my [Coffeescript git fork](https://github.com/zot/coffee-script/tree/mocoffee) with the 'mofor' construct
+
+Here is [node.js](http://nodejs.org/), which you'll need to run Coffeescript
 
 Here is [my version of Kirstensviewer](https://github.com/zot/Kirstens-clone/tree/zot)
 
